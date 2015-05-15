@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 
 body{
   font-family: 'Roboto', sans-serif;
@@ -36,7 +36,7 @@ header{
 .card-grid .front {
   background-color: #FCFCFC;
   font-size: 3.6em;
-  font-family: 'Jeju Myeongjo', serif;
+  font-family: 'Jeju Gothic', sans-serif;
   color: #F62459;
   line-height: 172px;
   text-align: center;
