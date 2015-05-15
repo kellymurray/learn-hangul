@@ -1,16 +1,15 @@
-/*test*/
-
 @import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 
 .grid-container {
+  width:84%;
   margin: auto;
   padding: 20px;
   position: relative;
 }
 
 .card-grid {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin: 20px;
   display: inline-block;
 }
@@ -19,14 +18,15 @@
   padding: 10px;
   text-align: center;
   border: 1px #EB7077 solid;
+  box-shadow: 1px 1px 1px #888888;
 }
 
 .card-grid .front {
   background-color: #FCFCFC;
-  font-size: 2.4em;
+  font-size: 3.4em;
   font-family: 'Jeju Myeongjo', serif;
   color: #EB7077;
-  line-height: 80px;
+  line-height: 135px;
   text-align: center;
 }
 
@@ -34,8 +34,9 @@
   background-color: #EB7077;
   color: white;
   color: #FCFCFC;
-  line-height: 80px;
+  line-height: 135px;
   text-align: center;
+  font-size: 3.4em;
 }
 
 body{
@@ -84,13 +85,6 @@ header{
 .menu ul li a:hover {  color: #FCFCFC; text-decoration:none;}
 .menu a{text-decoration:none; color:#FCFCFC;}
 .menu a:hover{text-decoration:none; color:#FCFCFC;}
-
-/*.-home{
-  color:white;
-  font-size:1.5em;
-  margin-top:5px;
-  margin:0 auto;
-}*/
 
 .header-text {
   font-family: 'Roboto', sans-serif;
