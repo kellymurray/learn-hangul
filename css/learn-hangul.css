@@ -63,17 +63,19 @@ header{
 
 .header-sub-text {
   font-family: 'Roboto', sans-serif;
-  padding-left: 1em;
+  margin: 1%;
   color: #333333;
   font-size: 1em;
   overflow: auto;
+  line-height: 1rem;
 }
 
 .header-sub-container {
   background-color: #DADFE1;
+  padding: 5.3px;
   max-height: 20%;
   max-width: 100%;
-  overflow; auto;
+  overflow: auto;
 }
 
 .strong {
