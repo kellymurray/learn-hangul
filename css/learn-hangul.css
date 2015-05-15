@@ -56,7 +56,7 @@ header{
   text-transform: uppercase;
   padding-left: .4em;
   color: #FCFCFC;
-  letter-spacing: 1em;
+  letter-spacing: 0.707em;
   font-size: 2.618em;
   margin: 0;
 }
