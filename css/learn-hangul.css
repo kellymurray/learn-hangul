@@ -2,7 +2,7 @@
 
 .grid-container {
   margin: auto;
-  padding: 2em;
+  padding: 20px;
   position: relative;
 }
 
@@ -16,34 +16,35 @@
 .card-grid .front, .card-grid .back {
   padding: 10px;
   text-align: center;
-  border: 1px #E09494 solid;
+  border: 1px #EB7077 solid;
 }
 
 .card-grid .front {
-  background-color: #FAF9F3;
+  background-color: #FCFCFC;
   font-size: 2.4em;
   font-family: 'Jeju Myeongjo', serif;
-  color: #E09494;
+  color: #EB7077;
   line-height: 80px;
   text-align: center;
 }
 
 .card-grid .back {
-  background-color: #E09494;
+  background-color: #EB7077;
   color: white;
-  color: #FAF9F3;
+  color: #FCFCFC;
   line-height: 80px;
   text-align: center;
 }
 
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 	margin:0;
-  background-color: #FAF9F3;
+  background: #FCFCFC;
+  padding: auto;
 }
 header{
 	width:100%;
-	background:#E09494;
+	background:#EB7077;
 	height:50px;
 	line-height:50px;
 }
@@ -54,7 +55,7 @@ header{
   right:0;
   line-height:45px;
   padding:0px 15px 0px 15px;
-  color:#FAF9F3;
+  color:#FCFCFC;
   border:0;
   font-size:1.4em;
   outline:none;
@@ -77,10 +78,10 @@ header{
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#A5A2A8 1px solid;}
 .menu li:hover{display: block;    background:#555357; padding:15px 0 15px 0; border-bottom:#555357 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:#FAF9F3;}
-.menu ul li a:hover {  color: #FAF9F3; text-decoration:none;}
-.menu a{text-decoration:none; color:#FAF9F3;}
-.menu a:hover{text-decoration:none; color:#FAF9F3;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#FCFCFC;}
+.menu ul li a:hover {  color: #FCFCFC; text-decoration:none;}
+.menu a{text-decoration:none; color:#FCFCFC;}
+.menu a:hover{text-decoration:none; color:#FCFCFC;}
 
 /*.-home{
   color:white;
@@ -90,10 +91,10 @@ header{
 }*/
 
 .header-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   padding-left: 1em;
-  color: #FAF9F3;
+  color: #FCFCFC;
   letter-spacing: 1em;
   margin: 0;
 }
