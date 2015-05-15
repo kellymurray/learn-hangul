@@ -1,44 +1,5 @@
 @import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 
-.grid-container {
-  width:80%;
-  padding: 20px;
-  position: relative;
-  margin: 20px auto;
-}
-
-.card-grid {
-  width: 150px;
-  height: 150px;
-  margin: 20px;
-  display: inline-block;
-}
-
-.card-grid .front, .card-grid .back {
-  padding: 10px;
-  text-align: center;
-  border: 1px #EB7077 solid;
-  box-shadow: 1px 1px 1px #888888;
-}
-
-.card-grid .front {
-  background-color: #FCFCFC;
-  font-size: 3.4em;
-  font-family: 'Jeju Myeongjo', serif;
-  color: #EB7077;
-  line-height: 135px;
-  text-align: center;
-}
-
-.card-grid .back {
-  background-color: #EB7077;
-  color: white;
-  color: #FCFCFC;
-  line-height: 125px;
-  text-align: center;
-  font-size: 3.4em;
-}
-
 body{
   font-family: 'Roboto', sans-serif;
 	margin:0;
@@ -47,9 +8,47 @@ body{
 }
 header{
 	width:100%;
-	background:#EB7077;
+	background:#F62459;
 	height:20%;
 	line-height:50px;
+}
+
+.grid-container {
+  width:80%;
+  padding: 20px;
+  position: relative;
+  margin: 20px auto;
+}
+
+.card-grid {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.card-grid .front, .card-grid .back {
+  padding: 10px;
+  text-align: center;
+  border: 1px #F62459 solid;
+}
+
+.card-grid .front {
+  background-color: #FCFCFC;
+  font-size: 3.6em;
+  font-family: 'Jeju Myeongjo', serif;
+  color: #F62459;
+  line-height: 172px;
+  text-align: center;
+}
+
+.card-grid .back {
+  background-color: #F62459;
+  color: white;
+  color: #FCFCFC;
+  line-height: 172px;
+  text-align: center;
+  font-size: 3.6em;
 }
 
 .header-text {
@@ -71,7 +70,7 @@ header{
 }
 
 .header-sub-container {
-  background-color: #A5A2A8;
+  background-color: #DADFE1;
   max-height: 20%;
   max-width: 100%;
   overflow; auto;
@@ -80,4 +79,5 @@ header{
 .strong {
   font-weight: 700;
   font-famiy: 'Roboto', sans-serif;
+  color: #F62459;
 }
