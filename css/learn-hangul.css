@@ -1,10 +1,10 @@
 @import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 
 .grid-container {
-  width:84%;
-  margin: auto;
+  width:80%;
   padding: 20px;
   position: relative;
+  margin: 20px auto;
 }
 
 .card-grid {
@@ -34,7 +34,7 @@
   background-color: #EB7077;
   color: white;
   color: #FCFCFC;
-  line-height: 135px;
+  line-height: 125px;
   text-align: center;
   font-size: 3.4em;
 }
@@ -48,49 +48,36 @@ body{
 header{
 	width:100%;
 	background:#EB7077;
-	height:50px;
+	height:20%;
 	line-height:50px;
 }
-.hamburger{
-  background:none;
-  position:absolute;
-  top:0;
-  right:0;
-  line-height:45px;
-  padding:0px 15px 0px 15px;
-  color:#FCFCFC;
-  border:0;
-  font-size:1.4em;
-  outline:none;
-  z-index:10000000000000;
-}
-.cross{
-  background:none;
-  position:absolute;
-  top:0px;
-  right:0;
-  padding:0px 15px 0px 15px;
-  color:#fff;
-  border:0;
-  font-size:3em;
-  line-height:65px;
-  outline:none;
-  z-index:10000000000000;
-}
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#A5A2A8;  position:absolute; text-align:center;}
-.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#A5A2A8 1px solid;}
-.menu li:hover{display: block;    background:#555357; padding:15px 0 15px 0; border-bottom:#555357 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:#FCFCFC;}
-.menu ul li a:hover {  color: #FCFCFC; text-decoration:none;}
-.menu a{text-decoration:none; color:#FCFCFC;}
-.menu a:hover{text-decoration:none; color:#FCFCFC;}
 
 .header-text {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  padding-left: 1em;
+  padding-left: .6em;
   color: #FCFCFC;
-  letter-spacing: 1em;
+  letter-spacing: 1.5em;
+  font-size: 1.618em;
   margin: 0;
+}
+
+.header-sub-text {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 1em;
+  color: #333333;
+  font-size: 1em;
+  overflow: auto;
+}
+
+.header-sub-container {
+  background-color: #A5A2A8;
+  max-height: 20%;
+  max-width: 100%;
+  overflow; auto;
+}
+
+.strong {
+  font-weight: 700;
+  font-famiy: 'Roboto', sans-serif;
 }
