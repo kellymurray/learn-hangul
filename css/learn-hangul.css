@@ -4,7 +4,6 @@ body{
   font-family: 'Roboto', sans-serif;
 	margin:0;
   background: #FCFCFC;
-  padding: auto;
 }
 header{
 	width:100%;
@@ -15,9 +14,9 @@ header{
 
 .grid-container {
   width:80%;
-  padding: 20px;
+  padding: 10px;
   position: relative;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .card-grid {
